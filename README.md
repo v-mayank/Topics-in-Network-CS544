@@ -6,10 +6,15 @@ Assignment to model various queueing processes(INQ,KOUTQ,iSLIP) in switches.
 3.README.txt.
 
 How to run source code:-
+	
 	1. Compile using g++ command.
+	
 	2. Run with .out file.(By default INQ will run).
+	
 	3. To run ISLIP pass "Q_ISLIP" argument, similerly "Q_KOUQ" for knockout and "Q_INQ" for INQ.
+	
 	4. You have to pass letter then 'underscore' then value.	
+	
 	5. To change default values pass arguments like:
 		N_8   	for number of ports, 
 		P_0.6 	for generation probability,
